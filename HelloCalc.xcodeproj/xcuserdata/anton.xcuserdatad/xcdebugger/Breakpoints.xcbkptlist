@@ -9,11 +9,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "HelloCalc/HelloCalcAppDelegate.m"
-         timestampString = "355709042.833071"
+         timestampString = "356143491.974555"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "62"
-         endingLineNumber = "62">
+         startingLineNumber = "66"
+         endingLineNumber = "66">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -21,11 +21,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "HelloCalc/HelloCalcViewController.m"
-         timestampString = "355703227.038518"
+         timestampString = "356214280.621211"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "147"
-         endingLineNumber = "147"
+         startingLineNumber = "201"
+         endingLineNumber = "201"
          landmarkName = "-numEnterBtn:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -35,26 +35,12 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "HelloCalc/HelloCalcDataController.m"
-         timestampString = "355699881.781065"
+         timestampString = "356141258.789533"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "84"
-         endingLineNumber = "84"
+         startingLineNumber = "72"
+         endingLineNumber = "72"
          landmarkName = "-addToBuffer:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "HelloCalc/HelloCalcViewController.m"
-         timestampString = "355703227.038518"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "151"
-         endingLineNumber = "151"
-         landmarkName = "-numEnterBtn:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -90,20 +76,6 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "HelloCalc/HelloCalcAppDelegate.m"
-         timestampString = "355709042.833071"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
-         landmarkName = "-application:didFinishLaunchingWithOptions:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
          filePath = "HelloCalc/main.m"
          timestampString = "355706806.185918"
          startingColumnNumber = "9223372036854775807"
@@ -112,6 +84,46 @@
          endingLineNumber = "15"
          landmarkName = "main()"
          landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "HelloCalc/HelloCalcAppDelegate.m"
+         timestampString = "356141724.536064"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "22"
+         endingLineNumber = "22"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "HelloCalc/HelloCalcViewController.h"
+         timestampString = "356146729.318768"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "10"
+         endingLineNumber = "10">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "HelloCalc/HelloCalcAppDelegate.m"
+         timestampString = "356146878.934924"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "47"
+         endingLineNumber = "47"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

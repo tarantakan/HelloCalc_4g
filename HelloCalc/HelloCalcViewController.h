@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-//@protocol HelloCalcAppDelegate;
-
 @class HelloCalcDataController;
 
-@interface HelloCalcViewController : UIViewController <UITextFieldDelegate>
+//@protocol NSTableViewDataSource, NSTableViewDelegate;
+
+@interface HelloCalcViewController : UIViewController
 
 //@property (weak, nonatomic) id <HelloCalcAppDelegate> delegate;
 
@@ -24,10 +24,16 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *numberInField;
 
+//@property (strong, nonatomic) IBOutletCollection(UITableView) NSArray *rsltTable;
+
 - (IBAction)numEnterBtn:(id)sender;
 - (IBAction)computeBtn:(id)sender;
 - (IBAction)cEBtn:(id)sender;
 - (IBAction)flushBufBtn:(id)sender;
+- (IBAction)plusBtn:(id)sender;
+- (IBAction)minusBtn:(id)sender;
+- (IBAction)multBtn:(id)sender;
+- (IBAction)divBtn:(id)sender;
 
 @end
 

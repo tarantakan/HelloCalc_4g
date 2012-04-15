@@ -57,6 +57,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="plusBtn:" destination="2" eventType="touchUpInside" id="uaV-q0-bii"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c0q-fI-mzU">
                                 <rect key="frame" x="50" y="253" width="24" height="24"/>
@@ -69,6 +72,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="minusBtn:" destination="2" eventType="touchUpInside" id="gRI-23-ZWk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="52W-r5-4QO">
                                 <rect key="frame" x="82" y="253" width="24" height="24"/>
@@ -81,6 +87,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="multBtn:" destination="2" eventType="touchUpInside" id="i8D-He-wfB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aEv-nQ-cOO">
                                 <rect key="frame" x="114" y="253" width="24" height="24"/>
@@ -93,6 +102,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="divBtn:" destination="2" eventType="touchUpInside" id="yRG-pC-o3N"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GXh-Pq-k9l">
                                 <rect key="frame" x="74" y="138" width="48" height="36"/>
@@ -183,26 +195,11 @@
                     <connections>
                         <outlet property="bufferOutLbl" destination="ThM-qx-8te" id="gjK-yX-m0c"/>
                         <outlet property="numberInField" destination="DPs-96-4lq" id="bmO-DP-bZT"/>
-                        <outlet property="resultsTableView" destination="bZQ-aX-H8j" id="dhf-Za-LU8"/>
                     </connections>
                 </viewController>
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="HelloCalcViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HelloCalcViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="cEBtn:"/>
-                <relationship kind="action" name="computeBtn:"/>
-                <relationship kind="action" name="flushBufBtn:"/>
-                <relationship kind="action" name="numEnterBtn:"/>
-                <relationship kind="outlet" name="bufferOutLbl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="numberInField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="resultsTableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

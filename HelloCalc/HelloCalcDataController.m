@@ -54,19 +54,7 @@
     NSMutableString *emptyBuf = [[NSMutableString alloc] init];
     
     self.calcBuffer = emptyBuf;
-    
-    [self.calcBuffer setString:@""];
-    
-}
-
-- (void)setResultsList:(NSMutableArray *)newList {
-    
-    if (_resultsList != newList) {
         
-        _resultsList = [newList mutableCopy];
-        
-    }
-    
 }
 
 - (NSUInteger)countOfList {
@@ -91,17 +79,15 @@
 
 - (void)clearBuf {
     
-    [self initializeDefaultBuffer];
+    [self.calcBuffer setString:@""];
     
 }
 
 - (void)addResult:(double)theResult {
     
-    CalcResult *result;
+    CalcResult *rslt = [[CalcResult alloc] initWithValue:theResult];
     
-    result = [[CalcResult alloc] initWithValue:theResult];
-    
-    [self.resultsList addObject:result];
+    [self.resultsList addObject:rslt];
     
 }
 

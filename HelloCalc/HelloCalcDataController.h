@@ -12,8 +12,8 @@
 
 @interface HelloCalcDataController : NSObject
 
-@property (nonatomic, copy) NSMutableArray *resultsList;
-@property (nonatomic, copy) NSMutableString *calcBuffer;
+@property (nonatomic, retain) NSMutableArray *resultsList;
+@property (nonatomic, retain) NSMutableString *calcBuffer;
 
 - (NSUInteger)countOfList;
 

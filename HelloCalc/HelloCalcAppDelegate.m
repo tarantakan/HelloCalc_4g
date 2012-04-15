@@ -14,13 +14,13 @@
 @implementation HelloCalcAppDelegate
 
 @synthesize window = _window;
-@synthesize navController = _navController;
+@synthesize vwController = _vwController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
 {
 
-    [window addSubview:[navController view]];
+    [window addSubview:[vwController view]];
     [window makeKeyAndVisible];
     
     /*UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
@@ -38,6 +38,10 @@
     HelloCalcDataController *dataCtrlr = [[HelloCalcDataController alloc] init];
     
     theViewCtrlr.dataController = dataCtrlr;
+    
+    //theViewCtrlr.rsltTable = dataCtrlr.resultsList;
+    
+    //[theViewCtrlr.resultsTableView reloadData];
     
     return YES;
     
