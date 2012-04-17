@@ -12,11 +12,11 @@
 @interface HelloCalcAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
-    UIViewController *vwController;
+    UIViewController *vwCtrlr;
     
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UIViewController *vwController;
+@property (nonatomic, retain) IBOutlet UIViewController *vwCtrlr;
 
 @end

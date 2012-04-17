@@ -8,40 +8,33 @@
 
 #import "HelloCalcAppDelegate.h"
 
-#import "HelloCalcDataController.h"
 #import "HelloCalcViewController.h"
+#import "HelloCalcDataController.h"
+#import "HelloCalcTableViewController.h"
 
 @implementation HelloCalcAppDelegate
 
 @synthesize window = _window;
-@synthesize vwController = _vwController;
+@synthesize vwCtrlr = _vwCtrlr;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
 {
 
-    [window addSubview:[vwController view]];
+    [window addSubview:[vwCtrlr view]];
     [window makeKeyAndVisible];
-    
-    /*UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    
-    BirdsMasterViewController *firstViewController = (BirdsMasterViewController *)[[navigationController viewControllers] objectAtIndex:0];
-    
-    
-    
-    BirdSightingDataController *aDataController = [[BirdSightingDataController alloc] init];
-    
-    firstViewController.dataController = aDataController;*/
     
     HelloCalcViewController *theViewCtrlr = (HelloCalcViewController *)self.window.rootViewController;
     
-    HelloCalcDataController *dataCtrlr = [[HelloCalcDataController alloc] init];
+    HelloCalcDataController *theDataCtrlr = [[HelloCalcDataController alloc] init];
     
-    theViewCtrlr.dataController = dataCtrlr;
+    HelloCalcTableViewController *theTblCtrlr = [[HelloCalcTableViewController alloc] init];
     
-    //theViewCtrlr.rsltTable = dataCtrlr.resultsList;
+    theViewCtrlr.dataController = theDataCtrlr;
     
-    //[theViewCtrlr.resultsTableView reloadData];
+    theViewCtrlr.rsltTblVwCtrlr = theTblCtrlr;
+    
+    theViewCtrlr.rsltTblVwCtrlr.tblDataController = theDataCtrlr;
     
     return YES;
     

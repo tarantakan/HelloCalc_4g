@@ -14,6 +14,7 @@
 
 @property (nonatomic, retain) NSMutableArray *resultsList;
 @property (nonatomic, retain) NSMutableString *calcBuffer;
+@property (nonatomic, retain) NSMutableString *feedbackMsg;
 
 - (NSUInteger)countOfList;
 
@@ -21,8 +22,16 @@
 
 - (void)addToBuffer:(NSString *)toAdd;
 
+- (void)addOpToBuffer:(NSString *)toAdd;
+
+- (void)truncBuf;
+
 - (void)clearBuf;
 
 - (void)addResult:(double)theResult;
+
+- (void)clearResults;
+
+- (void)computeResult;
 
 @end

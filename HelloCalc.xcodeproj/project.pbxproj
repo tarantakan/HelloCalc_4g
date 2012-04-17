@@ -17,6 +17,7 @@
 		3A48FD90152B8C4400A1990A /* HelloCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48FD8F152B8C4400A1990A /* HelloCalcViewController.m */; };
 		3A48FD98152BA6BB00A1990A /* HelloCalcDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48FD97152BA6BB00A1990A /* HelloCalcDataController.m */; };
 		3A48FD9B152BAD6C00A1990A /* CalcResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48FD9A152BAD6C00A1990A /* CalcResult.m */; };
+		3AAF00FB153CF61600F5B804 /* HelloCalcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF00FA153CF61600F5B804 /* HelloCalcTableViewController.m */; };
 		3AC4D79C153391E4000B40F7 /* HelloCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4D79B153391E4000B40F7 /* HelloCalcAppDelegate.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 		3A48FD97152BA6BB00A1990A /* HelloCalcDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCalcDataController.m; sourceTree = "<group>"; };
 		3A48FD99152BAD6C00A1990A /* CalcResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcResult.h; sourceTree = "<group>"; };
 		3A48FD9A152BAD6C00A1990A /* CalcResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcResult.m; sourceTree = "<group>"; };
+		3AAF00F9153CF61600F5B804 /* HelloCalcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCalcTableViewController.h; sourceTree = "<group>"; };
+		3AAF00FA153CF61600F5B804 /* HelloCalcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCalcTableViewController.m; sourceTree = "<group>"; };
 		3AC4D79A153391E4000B40F7 /* HelloCalcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCalcAppDelegate.h; sourceTree = "<group>"; };
 		3AC4D79B153391E4000B40F7 /* HelloCalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCalcAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,15 +89,17 @@
 			isa = PBXGroup;
 			children = (
 				3A48FD88152B8C4400A1990A /* MainStoryboard_iPhone.storyboard */,
+				3A48FD8B152B8C4400A1990A /* MainStoryboard_iPad.storyboard */,
 				3AC4D79A153391E4000B40F7 /* HelloCalcAppDelegate.h */,
 				3AC4D79B153391E4000B40F7 /* HelloCalcAppDelegate.m */,
-				3A48FD8B152B8C4400A1990A /* MainStoryboard_iPad.storyboard */,
 				3A48FD8E152B8C4400A1990A /* HelloCalcViewController.h */,
+				3A48FD8F152B8C4400A1990A /* HelloCalcViewController.m */,
+				3AAF00F9153CF61600F5B804 /* HelloCalcTableViewController.h */,
+				3AAF00FA153CF61600F5B804 /* HelloCalcTableViewController.m */,
 				3A48FD96152BA6BB00A1990A /* HelloCalcDataController.h */,
+				3A48FD97152BA6BB00A1990A /* HelloCalcDataController.m */,
 				3A48FD99152BAD6C00A1990A /* CalcResult.h */,
 				3A48FD9A152BAD6C00A1990A /* CalcResult.m */,
-				3A48FD97152BA6BB00A1990A /* HelloCalcDataController.m */,
-				3A48FD8F152B8C4400A1990A /* HelloCalcViewController.m */,
 				3A48FD7D152B8C4400A1990A /* Supporting Files */,
 			);
 			path = HelloCalc;
@@ -179,6 +184,7 @@
 				3A48FD98152BA6BB00A1990A /* HelloCalcDataController.m in Sources */,
 				3A48FD9B152BAD6C00A1990A /* CalcResult.m in Sources */,
 				3AC4D79C153391E4000B40F7 /* HelloCalcAppDelegate.m in Sources */,
+				3AAF00FB153CF61600F5B804 /* HelloCalcTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

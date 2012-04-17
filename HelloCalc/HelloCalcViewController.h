@@ -6,25 +6,23 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
-@class HelloCalcDataController;
 
-//@protocol NSTableViewDataSource, NSTableViewDelegate;
+@class HelloCalcDataController;
+@class HelloCalcTableViewController;
+
 
 @interface HelloCalcViewController : UIViewController
 
-//@property (weak, nonatomic) id <HelloCalcAppDelegate> delegate;
 
 @property (strong, nonatomic) HelloCalcDataController *dataController;
-
+@property (strong, nonatomic) HelloCalcTableViewController *rsltTblVwCtrlr;
+@property (weak, nonatomic) IBOutlet UITableView *resultsTable;
 @property (weak, nonatomic) IBOutlet UILabel *bufferOutLbl;
-
-@property (weak, nonatomic) IBOutlet UITableView *resultsTableView;
-
 @property (weak, nonatomic) IBOutlet UITextField *numberInField;
-
-//@property (strong, nonatomic) IBOutletCollection(UITableView) NSArray *rsltTable;
+@property (weak, nonatomic) IBOutlet UILabel *feedbackLbl;
 
 - (IBAction)numEnterBtn:(id)sender;
 - (IBAction)computeBtn:(id)sender;
@@ -34,13 +32,9 @@
 - (IBAction)minusBtn:(id)sender;
 - (IBAction)multBtn:(id)sender;
 - (IBAction)divBtn:(id)sender;
+- (IBAction)clearResults:(id)sender;
+
+- (void)updateFeedback;
+
 
 @end
-
-/*@protocol HelloCalcAppDelegate <NSObject>
-
-- (void)HelloCalcViewControllerDidCancel:(HelloCalcViewController *)controller;
-
-- (void)HelloCalcViewControllerDidFinish:(HelloCalcViewController *)controller value:(NSString *)value;
-
-@end*/
